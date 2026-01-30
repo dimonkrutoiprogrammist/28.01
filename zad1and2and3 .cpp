@@ -103,8 +103,8 @@ int main(){
     cout << endl;
 
    //координаты точкам
-    Point a{1.0, 1.0}; 
-    Point b{5.0, 5.0}; 
+    Point a{1.5, 1.5}; 
+    Point b{3.0, 3.0}; 
 
     cout << "Точка x - " << a.x << " " << a.y << endl;
     cout << "Точка y - " << b.y << " " << b.y << endl;
@@ -114,8 +114,8 @@ int main(){
     cout << endl;
     cout << endl;
 
-    Fraction f_1{2,5};
-    Fraction f_2{3,4};
+    Fraction f_1{5,5};
+    Fraction f_2{4,4};
 
        // ВЫВОД РЕЗУЛЬТАТОВ ОПЕРАЦИЙ С ДРОБЯМИ:
     cout << "\n----Операции сделанные с дробями----" << endl;
