@@ -106,10 +106,10 @@ int main(){
     Point a{1.0, 1.0}; 
     Point b{5.0, 5.0}; 
 
-    cout << "Точка x: " << a.x << " " << a.y << endl;
-    cout << "Точка y: " << b.y << " " << b.y << endl;
+    cout << "Точка x - " << a.x << " " << a.y << endl;
+    cout << "Точка y - " << b.y << " " << b.y << endl;
     //Вызов функции
-    cout << "Расстояние между точками: " << DistancePoint(a, b);
+    cout << "Расстояние между точками - " << DistancePoint(a, b);
 
     cout << endl;
     cout << endl;
